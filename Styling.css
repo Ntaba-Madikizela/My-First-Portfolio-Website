@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .nav-bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      color: whitesmoke;
+      padding: 2rem 4rem;
+  }
+  .nav-bar >h1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+    font-weight: bold;
+  }
+  .nav-links{
+    display: flex;
+    gap: 6rem;
+    font-size: larger;
+  }
+  .nav-links > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: larger;
+    cursor: pointer;
+    
+  }
+  .hero{
+    background-color: black;
+    min-height: 70;
+  }
+  .home-desc{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 12rem;
+    color: whitesmoke;
+  }
+  .home-desc >img {
+    width: 400px;
+    height: 400px;
+
+  }
+  .home-content {
+    width: 50%;
+
+  }
+  .home-content > h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    width: 100;
+}
+.my-name {
+    font-size: 20;
+    color: blueviolet;
+}
+.home-content >p {
+    margin-bottom: 3rem;
+    width: 80%;
+    line-height: 30px;
+}
+.home-content > a > button{
+    background-color: transparent;
+    color: white;
+    border-radius: 999px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 1rem 4rem;
+}
+.home-content > a > button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.nav-links > :hover{
+    color: orchid;
+}
